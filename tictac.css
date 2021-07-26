@@ -1,0 +1,119 @@
+*{
+    background-color: tan;
+}
+
+  td{
+    min-width: 150px;
+    min-height: 150px;
+    text-align: center;
+    justify-content: center;
+    display:inline-flex;
+    align-items: center;
+   }
+   #win{
+     font-size: 44px;
+   }
+
+[id="0"]{
+    border-right: 4px solid black;
+    border-bottom: 2px solid black;
+    margin-right: -2px;
+}
+[id="1"]{
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 2px solid black;
+    margin-left: -2px;
+    margin-right: -2px;
+
+}
+[id="2"]{
+    border-left: 4px solid black;
+    border-bottom: 2px solid black;
+    margin-left: -2px;
+
+}
+[id="3"]{
+    border-right: 4px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-right: -2px;
+
+}
+[id="4"]{
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-left: -2px;
+    margin-right: -2px;
+
+}
+[id="5"]{
+    border-left: 4px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: -2px;
+
+}
+[id="6"]{
+    border-right: 4px solid black;
+    border-top: 2px solid black;
+    margin-right: -2px;
+}
+[id="7"]{
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-top: 2px solid black;
+    margin-left: -2px;
+    margin-right: -2px;
+
+}
+[id="8"]{
+    border-left: 4px solid black;
+    border-top: 2px solid black;
+    margin-left: -2px;
+
+}
+.container{
+    display: grid;
+    justify-content: center;
+}
+button{
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    padding: 7px;
+}
+.fa-redo{
+    background-color: gray;
+}
+#btn{
+    background-color: gray;
+    font-size: x-large;
+    margin: 3px;
+    
+}
+
+
+  button:hover{
+    color: black;
+  }
+
+  @media screen and (max-width: 480px) {
+    td{
+      min-width: 27vw;
+      min-height: 27vw;
+        max-width: 27vw;
+        max-height: 27vw;
+    }
+   
+     }
+#sticky{
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
