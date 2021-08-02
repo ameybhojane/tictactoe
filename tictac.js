@@ -119,8 +119,8 @@ g.fill(false);
 
 function draw() {
     document.getElementById("win").innerHTML=""; 
-    document.getElementById("win").appendChild(xi); 
-    document.getElementById("win").appendChild(oi);
+   // document.getElementById("win").appendChild(xi); 
+   // document.getElementById("win").appendChild(oi);
     document.getElementById("win").appendChild(dw);
     document.getElementById("win").style.color="yellow"
     document.getElementById("btn").innerText= " Play Again ";
